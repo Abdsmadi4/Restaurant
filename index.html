@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+       <div class="formDiv">
+        <p>Fill Data</p>
+         <form id="food">
+            <label for="foodName">Food Name</label>
+            <input type="text" name="foodName" id="foodName">
+            <br>
+            <label for="totf" class="lab">Types of the food</label>
+            <select name="typesOfTheFood" id="totf">
+                <option value="" disabled="true">--Please choose Type of the food--</option>
+                <option value="fruit and vegetables">Fruit and vegetables</option>
+                <option value="starchy food">Starchy food</option>
+                <option value="dairy">Dairy</option>
+                <option value="protein">Protein</option>
+                <option value="fat">Fat</option>
+            </select>
+            <br>
+            <label for="price" class="lab">Price</label>
+            <input type="text" name="price" id="price">
+            <br>
+            <input type="submit" value="submit" id="sub">
+          </form>
+        </div>
+        <div id="render">
+          
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

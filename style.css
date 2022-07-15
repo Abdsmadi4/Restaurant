@@ -1,0 +1,75 @@
+b59b6*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg,#71b7e6,#FAF4B7);
+}
+
+.formDiv{
+    padding: 1px;
+    max-width: 480px;
+    width: 100%;
+    background: #CDF0EA;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#food{
+    font-size: 15px;
+    margin-left: 135px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap ;
+    width: calc(100% / 2 - 35px );
+}
+
+
+#flHeading{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+label{
+    
+    height: 35px;
+    width: 100%;
+
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+.lab{
+    margin: 1px;
+}
+
+#sub{
+    margin: 20px;
+}
+
+
+#fTable{
+    margin: auto;
+}
+table tr th{
+    border: #FAF4B7;
+    background: #CDF0EA;
+ 
+}
+td{
+    text-align: center;
+}
