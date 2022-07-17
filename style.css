@@ -1,4 +1,4 @@
-b59b6*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,9 +34,6 @@ body{
 }
 
 
-#flHeading{
-    text-align: center;
-}
 
 p{
     text-align: center;
@@ -62,14 +59,7 @@ input{
 }
 
 
-#fTable{
-    margin: auto;
-}
-table tr th{
-    border: #FAF4B7;
-    background: #CDF0EA;
- 
-}
-td{
-    text-align: center;
-}
+
+
+
+

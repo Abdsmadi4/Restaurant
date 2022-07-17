@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg,#C8B6E2,#495C83);
+}
+
+#render{
+    align-items: center;
+}
+
