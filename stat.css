@@ -83,3 +83,9 @@ button{
     text-align: center;
     border: 1px solid #dee2e685;
 }
+
+.chart , .chart2{
+    padding: 18px;
+    width: 50%;
+    margin-left: 30% ;
+}
