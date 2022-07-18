@@ -1,10 +1,6 @@
 //use strict
 'use strict';
 
-//get data as object
-getDdata();
-
-
 let foodsDiv = document.getElementById('render');
 
     let foodListHeading = document.createElement('h3');
