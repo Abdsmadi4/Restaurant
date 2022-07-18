@@ -5,14 +5,81 @@
 
 }
 body{
+    background: #242524;
+}
+
+li,a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(135deg,#C8B6E2,#495C83);
+    padding: 30px 10px;
+}
+.navList{
+    list-style: none;
 }
 
-#render{
-    align-items: center;
+.navList li{
+    display: inline;
+    padding: 0px 20px;
 }
 
+.navList li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navList li a:hover{
+    color: rgb(0, 0, 0);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(252, 244, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.render{
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+
+#flHeading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#fTable{
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+#fTable thead{
+    background-color: rgb(146, 146, 146);
+}
+
+#fTable thead tr td{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(252, 244, 163);
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid rgb(252, 244, 163);
+}
+
+#fTable tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #f1f1f1;
+    background-color: #3c3f44;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e685;
+}
